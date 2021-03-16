@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <title>log in form and social</title>
+</head>
+<style>
+    body{
+        background-color: lightcoral;
+    }
+</style>
+<body>
+     
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-xl-5 mx-auto">
+                <div class="card card-signin-simple flex-row my-4">
+                    <div class="card-img-left d-none d-md-flex">
+                        <!-- Background image for card set in CSS! -->
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Sign in</h5>
+                        <form class="form-signin-simple">
+                            <div class="form-group">
+                                <label for="signinEmail">Email address</label>
+                                <input type="email" 
+                                id="signinEmail"
+                                placeholder="Email address"
+                                required class="form-control" />
+                            </div>
+                            <hr />
+                            <div class="form-group">
+                                <label for="signinPassword">Password</label>
+                                <input type="password" 
+                                id="signinPassword" 
+                                placeholder="Password" 
+                                required class="form-control" />
+                            </div>
+                            <button type="submit" 
+                            class="btn btn-lg btn-primary btn-block text-uppercase">Sign in</button>
+                            <a href="Resister.html" class="d-block text-center mt-2 small">Register</a>
+                            <a href="password rest.html" class="d-block text-center mt-2 small">Forget password</a>
+                            <hr class="my-4" />
+                            <button type="submit" 
+                            class="btn btn-lg btn-google btn-block text-uppercase  btn-danger">
+                            <i class="fab fa-google mr-2"></i> Sign in with Google</button>
+                            <button type="submit" 
+                            class="btn btn-lg btn-facebook btn-block text-uppercase btn-primary">
+                            <i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
